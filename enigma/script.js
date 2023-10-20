@@ -3,7 +3,7 @@ document.getElementById('checkPasswordBtn').addEventListener('click', function()
     var resultMessage = document.getElementById('resultMessage');
     
     if (passwordInput === 'OMKJ') {
-        resultMessage.textContent = 'LINK DO YOUTUBE EXPLICANDO';
+        resultMessage.textContent = 'Congratulations, you just received a ticket for 10/28, don't be late.';
     } else {
         resultMessage.textContent = 'try again';
     }
