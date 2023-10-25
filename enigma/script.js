@@ -3,8 +3,8 @@ document.getElementById('checkPasswordBtn').addEventListener('click', function()
     var resultMessage = document.getElementById('resultMessage');
     
     if (passwordInput === 'OMKJ') {
-        resultMessage.textContent = 'Congratulations, you just received a ticket for 10/28, don't be late.';
+        resultMessage.textContent = 'Congratulations, you just received a ticket for 10/28, dont be late.';
     } else {
-        resultMessage.textContent = 'try again';
+        resultMessage.textContent = 'try again :)';
     }
 });
